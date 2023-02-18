@@ -19,37 +19,30 @@ body{
     color: white;
 }
 
-.form form{
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
+form label{
+    display: inline-block;
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+    
 }
 
-.form form div label{
-    display: inline-block;
-    width: 130px;
-    height: 35px;
-}
-
-input{
-    display: inline-block;
-    width: 250px;
-    height: 35px;
+form input{
+    background-color: black;
     border: 1px solid white;
     color: white;
+    margin: 5px;
+    display: inline-block;
+    padding: 5px;
+    width: 300px;
 }
 
-.form form div input[type="text"]{
-    background-color: black;
-    color: white;
-    font-size: 17px;
-}
-
-
-.form form .issue-submit input{
-    background-color: white;
+form button{
+    display: inline-block;
+    width: 412px;
+    padding: 5px;
+    margin: 5px;
     color: black;
-    width: 382px;
 }
 
 .table table{

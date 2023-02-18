@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body{
+    background-color: black;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 2rem;
+    padding: 1rem;
+    color: white;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.form form div label{
+    display: inline-block;
+    width: 130px;
+    height: 35px;
+}
+
+input{
+    display: inline-block;
+    width: 250px;
+    height: 35px;
+    border: 1px solid white;
+    color: white;
+}
+
+.form form div input[type="text"]{
+    background-color: black;
+    color: white;
+    font-size: 17px;
+}
+
+
+.form form .issue-submit input{
+    background-color: white;
+    color: black;
+    width: 382px;
+}
+
+.table table{
+    border: 1px solid white;
+    height: 400px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td{
+    border: 1px solid white;
+}
